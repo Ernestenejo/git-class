@@ -8,6 +8,9 @@ app.get("/homepage", (req,res)=>{
 app.get("/contact", (req, res)=>{
     res.send("contact me on larryamadi223@gmail.com")
 });
+app.get("/careers", (req,res)=>{
+    res.send("No jobs currently available")
+})
 app.listen(port,()=>{
     console.log("we are live on port " +port)
 })
